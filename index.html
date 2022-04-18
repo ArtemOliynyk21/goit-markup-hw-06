@@ -453,21 +453,21 @@
         <form class="modal-form">
           <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
           <div class="form-field">
-            <label for="username">Имя</label>
+            <label class="modal-label" for="username">Имя</label>
             <input class="form-input" type="text" name="username" id="username" />
             <svg class="form-svg" width="12px" height="12px" class="person-icons">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
           <div class="form-field">
-            <label for="tel">Телефон</label>
+            <label class="modal-label" for="tel">Телефон</label>
             <input class="form-input" type="tel" name="tel" id="tel" />
             <svg class="form-svg" width="13px" height="13px" class="tel-icons">
               <use href="./images/icons.svg#icon-tel"></use>
             </svg>
           </div>
           <div class="form-field">
-            <label for="mail">Почта</label>
+            <label class="modal-label" for="mail">Почта</label>
             <input class="form-input" type="email" name="mail" id="mail" />
             <svg class="form-svg" width="15px" height="12px" class="mail-icons">
               <use href="./images/icons.svg#icon-mail"></use>
@@ -485,11 +485,11 @@
           </div>
           <div class="form-filed-chekbox">
             <label class="agree" for="agree">
-              Соглашаюсь с рассылкой и принимаю
               <input class="checkbox" type="checkbox" name="agree" id="agree" />
               <span class="check"></span>
+              Соглашаюсь с рассылкой и принимаю
+              <a class="agree-link" href="">Условия договора</a>
             </label>
-            <a class="agree-link" href="">Условия договора</a>
           </div>
           <button class="submit-btn" type="submit">Отправить</button>
         </form>
